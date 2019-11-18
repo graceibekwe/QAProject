@@ -10,7 +10,8 @@ router.post('/add', async (req, res) => {
         address: req.body.address,
         postcode: req.body.postcode,
         price: req.body.price,
-        Hold: req.body.Hold
+        Hold: req.body.Hold,
+        photo: req.body.photo
     });
     res.send(newListing.get({ plain: true }));
 });
