@@ -2,7 +2,7 @@ let name = document.getElementById('Name');
 let number = document.getElementById('Number');
 let budget = document.getElementById('Budget');
 
-document.getElementById('addapp').addEventListener('click', (event) => addApplicant());
+// document.getElementById('addapp').addEventListener('click', (event) => addApplicant());
 
 function addApplicant() {
     fetch('http://localhost:9000/applicants/add', {

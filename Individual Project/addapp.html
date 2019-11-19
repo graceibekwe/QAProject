@@ -24,7 +24,7 @@
   <div class="w3-container w3-padding-32" id="contact">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Register New Applicant</h3>
     <p>Enter details of new applicant below</p>
-    <form>
+    <form onsubmit="addApplicant(); return false;">
       <input class="w3-input w3-border" type="text" placeholder="Name" required id="Name">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Contact Number" required id="Number">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Budget" required id="Budget">

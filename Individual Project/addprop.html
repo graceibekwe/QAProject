@@ -24,7 +24,7 @@
   <div class="w3-container w3-padding-32" id="contact">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Add New Property</h3>
     <p>Enter the details of the property below</p>
-    <form>
+    <form onsubmit="addProperty(); return false;">
       <input class="w3-input w3-border" type="text" placeholder="Address" required id="Address">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Postcode" required id="Postcode">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Price" required id="Price">

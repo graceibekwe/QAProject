@@ -14,7 +14,7 @@ function photoFile() {
 
 }
 
-document.getElementById('addprop').addEventListener('click', (event) => addProperty());
+// document.getElementById('addprop').addEventListener('click', (event) => addProperty());
 
 function addProperty() {
 
